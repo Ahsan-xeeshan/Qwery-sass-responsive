@@ -1,0 +1,35 @@
+#promo {
+  .promo_details {
+    background: url("../../Image/other image.jpg") no-repeat center / cover;
+    height: 700px;
+    position: relative;
+    .promo_cnt {
+      position: absolute;
+      bottom: 0;
+      .intro {
+        color: $primaryColor;
+        letter-spacing: 6px;
+      }
+      .heading {
+        color: $textColor;
+        font-size: 50px;
+        padding: 10px 250px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      .desc {
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: $textColor;
+        padding: 0 200px;
+        margin-bottom: 20px;
+      }
+
+      a {
+        color: $primaryColor;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

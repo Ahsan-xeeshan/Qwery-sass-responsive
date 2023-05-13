@@ -1,0 +1,28 @@
+.info_details {
+  margin: 50px 0;
+  .intro {
+    color: $primaryColor;
+    letter-spacing: 6px;
+  }
+  .heading {
+    color: $textColor;
+    font-size: 50px;
+    padding: 10px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-right: 150px;
+  }
+  .desc {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: $textColor;
+    padding-right: 50px;
+    margin-bottom: 100px;
+  }
+
+  a {
+    color: $primaryColor;
+    text-transform: uppercase;
+  }
+}
