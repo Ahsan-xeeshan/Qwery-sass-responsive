@@ -109,7 +109,7 @@ li {
 }
 
 #promo .promo_details {
-  background: url("../../Image/other image.jpg") no-repeat center/cover;
+  background: url(../Image/otherImage.jpg) no-repeat center/cover;
   height: 700px;
   position: relative;
 }
